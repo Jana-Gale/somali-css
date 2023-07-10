@@ -109,5 +109,5 @@ h1{
     25%{color: red;}
     50%{color: green;}
     75%{color: cyan;}
-    100%{color: orange;}
+    100%{color: rgb(50, 255, 4);}
 }
