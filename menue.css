@@ -89,3 +89,25 @@ nav ul li:hover .minue ul li{
     margin-left: 155px;
     position: absolute;
 }
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 44px;
+    font-weight: bolder;
+    font-family: serif;
+    margin: 20px auto;
+    animation-name: first;
+    animation-duration:2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+
+}
+@keyframes first{
+    0%{color: blue;}
+    25%{color: red;}
+    50%{color: green;}
+    75%{color: cyan;}
+    100%{color: orange;}
+}
